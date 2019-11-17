@@ -1,13 +1,15 @@
 Michele Novack Abugosh 
 
 Project : Linux Server Configuration
+
 This project call to setup and configure a Linux (Ubuntu) web server using Amazon AWS.  The server must be secure and serve and application previously developed in the course (Catalog) . Prepare it to host your web application to include installing updates, securing it from attacks. 
+
+
 Name	Value
 IP Address	35-153.129.220
 SSH Port	2200
 Username	grader
 URL of Applicaiton	https://lightsail.aws.amazon.com/ls/remote/us-east-1/instances/CatalogApp/terminal?protocol=ssh
-
 
 To connect to EC2 instance you need the grader ( supplied separately in the submit process)
 
