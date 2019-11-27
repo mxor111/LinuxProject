@@ -6,6 +6,8 @@ This project call to setup and configure a Linux (Ubuntu) web server using Amazo
 The virtual private server is Amazon LightSail.
 The Linux distribution is Ubuntu 18.04 LTS.
 
+# ssh -i grader grader@54.198.244.135 -p 2200
+
 # Name	
 IP Address	54.198.244.135
 SSH Port	2200
