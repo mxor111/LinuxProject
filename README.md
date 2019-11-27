@@ -6,10 +6,10 @@ This project call to setup and configure a Linux (Ubuntu) web server using Amazo
 The virtual private server is Amazon LightSail.
 The Linux distribution is Ubuntu 18.04 LTS.
 
-# ssh -i grader grader@54.198.244.135 -p 2200
+# ssh -i grader grader@54.80.223.193 -p 2200
 
 # Name	
-IP Address	54.198.244.135
+IP Address	54.80,223.193
 SSH Port	2200
 Username	Grader
 
@@ -32,15 +32,15 @@ https://lightsail.aws.amazon.com/ls/webapp/us-east-1/instances/GraderApp/connect
 •	In terminal type chmod 600 LightsailDefaultKey.pem
 •	Type:  mv LightsailDefaultKey.pem grader_key.rsa
 
-# Check to see if connected  54.198.244.135 from my AWS instance
-•	Run the following command on locally:   ssh -i grader_key.rsa ubuntu@54.198.244.135
+# Check to see if connected  54.80.223.193 from my AWS instance
+•	Run the following command on locally:   ssh -i grader_key.rsa ubuntu@54.80.223.193
 
 It will show connected
 
 
 To connect to EC2 instance you need the grader KEY:( supplied separately in the submit process)
 
-ssh -i grader grader@54.198.244.135 -p 2200
+ssh -i grader grader@54.80.223.193 -p 2200
 
 # 1. Update the operating system packages and reboot if required
 $ sudo apt-get update
